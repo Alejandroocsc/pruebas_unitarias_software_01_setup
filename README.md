@@ -22,3 +22,11 @@ test('prueba falsa', () => {
 ```bash
 npm test
 ```
+
+La prueba usa TypeScript, por lo que también se instalaron `typescript`,
+`ts-jest` y `@types/jest`. La configuración está en `jest.config.js` y
+`tsconfig.json`. Las dependencias se guardan en `node_modules`, una carpeta
+local que no se sube a GitHub.
+
+Al finalizar, toma una captura de la terminal donde se vea el resultado y
+entrega esa captura según las instrucciones de la actividad.
